@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: #292929;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+
+}
+
+.rodape {
+    background-color: #414141;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.rodape-principal {
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.rodape-principal-logo {
+    height: 100px;
+    margin-right: 300px;
+}
+
+.rodape-principal-textos {
+    padding: 20px;
+}
+
+.rodape-principal-textos-titulo {
+    font-weight: 700;
+    font-style: normal;
+    color: #00CCFF;
+    font-size: 25pt;
+}
+
+.rodape-principal-textos-paragrafos {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    font-weight: 300;
+    font-style: normal;
+    color: #fff;
+    font-size: 10pt;
+}
+
+.rodape-principal-paragrafos-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.rodape-secundario-textos {
+    padding: 50px;
+    font-weight: 300;
+    font-style: normal;
+    color: #fff;
+    font-size: 10pt;
+}
+
