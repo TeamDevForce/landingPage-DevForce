@@ -12,7 +12,6 @@ body {
     background: #292929;
     font-family: "Rubik", sans-serif;
     font-optical-sizing: auto;
-
 }
 
 .cabecalho-menu {
@@ -21,6 +20,7 @@ body {
     align-items: center;
     font-size: 20px;
     font-weight: 400;
+    padding-bottom: 35px;
 }
 
 .cabecalho-menu-logo {
@@ -31,20 +31,53 @@ body {
 .cabecalho-menu-ancoras {
     display: flex;
     gap: 50px;
+    padding-top: 50px;
 }
 
 .cabecalho-menu-ancoras a {
     color: #898989;
-    padding-top: 100px;
+    transition: background-color 0.3s, color 0.3s;
+    padding-bottom: 1px;
+}
+
+.cabecalho-menu-ancoras a:hover {
+    border-bottom: 1px solid #F5F5F5;
 }
 
 .cabecalho-login {
-    padding-top: 100px;
     display: flex;
-    gap: 50px;
+    gap: 30px;
+    padding-top: 50px;
+    
+}
+
+.cabecalho-login a{
+    padding-top: 10px;
+    color: #00CCFF;
+    transition: background-color 0.3s, color 0.3s;
+    margin: 0;
+}
+
+.cabecalho-login a:hover {
+    color: #F5F5F5;
 
 }
 
+.cabecalho-login button {
+    padding: 10px 20px;
+    font-size: 20px;
+    border: 2px solid #3498db;
+    border-radius: 12px;
+    background: #292929;
+    color: #00CCFF;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.cabecalho-login button:hover {
+    background: #00CCFF;
+    color: #292929;
+}
 
 .rodape {
     background-color: #414141;
@@ -86,7 +119,6 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
-
     font-weight: 300;
     font-style: normal;
     color: #fff;
