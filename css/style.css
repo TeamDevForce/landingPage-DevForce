@@ -66,7 +66,7 @@ body {
 .cabecalho-login button {
     padding: 10px 20px;
     font-size: 20px;
-    border: 2px solid #3498db;
+    border: 2px solid #00CCFF;
     border-radius: 12px;
     background: #292929;
     color: #00CCFF;
@@ -77,6 +77,49 @@ body {
 .cabecalho-login button:hover {
     background: #00CCFF;
     color: #292929;
+}
+
+.boas-vindas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.boas-vindas-titulo {
+    font-size: 56pt;
+    color: #fff;
+}
+
+.boas-vindas-subtitulo {
+    font-size: 20pt;
+    color: #fff;
+    font-weight: 300;
+    margin-top: 30px;
+}
+
+.boas-vindas-botao {
+    margin-top: 70px;
+    padding: 10px 20px;
+    width: 230px;
+    height: 60px;
+    font-size: 20px;
+    border-radius: 8px;
+    border: none;
+    background: #00CCFF;
+    color: #292929;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.boas-vindas-botao:hover {
+    background: #009ec5;
+}
+
+.boas-vindas-imagem {
+    height: 350px;
 }
 
 .rodape {
@@ -111,6 +154,10 @@ body {
     font-style: normal;
     color: #00CCFF;
     font-size: 25pt;
+}
+
+.futuro {
+    color: #00CCFF
 }
 
 .rodape-principal-textos-paragrafos {
