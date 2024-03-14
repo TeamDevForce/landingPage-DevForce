@@ -93,6 +93,10 @@ body {
     color: #fff;
 }
 
+.futuro {
+    color: #00CCFF
+}
+
 .boas-vindas-subtitulo {
     font-size: 20pt;
     color: #fff;
@@ -120,6 +124,47 @@ body {
 
 .boas-vindas-imagem {
     height: 350px;
+}
+
+.sobre-nos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 150px;
+    margin: 100px;
+}
+
+
+.sobre-nos-texto-titulo {
+    padding-top: 50px;
+    text-align: center;
+    align-items: center;
+    font-size: 50pt;
+    color: #FFF;
+
+}
+
+.sobre-nos-dev {
+    color: #00CCFF;
+}
+
+.sobre-nos-force {
+    color: #CC3300;
+}
+
+.sobre-nos-texto-paragrafo {
+    padding-top: 25px;
+    font-weight: 300;
+    color: #fff;
+    text-align: center;
+    font-size: 14pt;
+}
+
+.sobre-nos-simbolo {
+    color: #fff;
+    font-weight: 700;
+    font-size: 25px;
 }
 
 .rodape {
@@ -156,9 +201,6 @@ body {
     font-size: 25pt;
 }
 
-.futuro {
-    color: #00CCFF
-}
 
 .rodape-principal-textos-paragrafos {
     margin-top: 20px;
