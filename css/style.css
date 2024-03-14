@@ -81,8 +81,8 @@ body {
 
 
 .principal-nossos-diferenciais {
-    padding-left: 80px;
-    max-width: 80%;
+    margin: 200px;
+    
 }
 
 .principal-nossos-diferenciais h1 {
@@ -90,7 +90,6 @@ body {
     text-align: center;
     color: #FFFF;
     padding-bottom: 90px;
-    
 }
 
 .principal-mentoria {
@@ -106,12 +105,25 @@ body {
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
-    text-align: center;
     gap: 120px;
     padding-top: 50px;
     border-bottom: 1px solid #FFFF;
-    padding-bottom: 50px;}
+    padding-bottom: 50px;
+}
 
+.textos-projetos {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+}
+
+
+.textos-projetos p {
+    max-width: 80%;
+    text-align: right;
+    
+}
 
 .principal-time-especilizado {
     display: flex;
