@@ -79,6 +79,66 @@ body {
     color: #292929;
 }
 
+
+.principal-nossos-diferencias {
+    padding-left: 80px;
+    max-width: 70%;
+}
+
+.principal-nossos-diferencias h1 {
+    font-size: 68px;
+    text-align: center;
+    color: #FFFF;
+    padding-bottom: 90px;
+    
+}
+
+.principal-mentoria {
+    display: flex;
+    gap: 120px;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 1px solid #FFFF;
+    padding-bottom: 50px;
+}
+
+.principal-projetos {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    text-align: center;
+    gap: 120px;
+    padding-top: 50px;
+    border-bottom: 1px solid #FFFF;
+    padding-bottom: 50px;}
+
+
+.principal-time-especilizado {
+    display: flex;
+    align-items: center;
+    gap: 120px;
+    padding-top: 50px;
+    padding-bottom: 130px;
+
+}
+
+.principal-titulo-nossos-diferencias {
+    font-size: 55px;
+    color: #FFFF;
+    max-width: 90%;
+}
+
+.principal-paragrafo-nossos-diferenciais {
+    color: #FFFF;
+    padding-top: 10px;
+    font-size: 25px;
+}
+
+.principal-textos-time-especilistas h2 {
+    max-width: 80%;
+}
+
+
 .rodape {
     background-color: #414141;
     border-radius: 20px;
