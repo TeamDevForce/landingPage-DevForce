@@ -161,7 +161,20 @@ body {
     font-size: 14pt;
 }
 
-.sobre-nos-simbolo {
+.sobre-nos-simbolo1 {
+    display: flex;
+    align-self: flex-start;
+    margin-top: 50px;
+    transform: rotate(-25deg);
+    color: #fff;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.sobre-nos-simbolo2 {
+    display: flex;
+    align-self: flex-end;
+    transform: rotate(25deg);
     color: #fff;
     font-weight: 700;
     font-size: 25px;
