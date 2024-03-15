@@ -180,6 +180,167 @@ body {
     font-size: 25px;
 }
 
+.principal-nossos-diferenciais {
+    margin: 200px;
+    
+}
+
+.principal-nossos-diferenciais h1 {
+    font-size: 68px;
+    text-align: center;
+    color: #FFFF;
+    padding-bottom: 90px;
+}
+
+.principal-mentoria {
+    display: flex;
+    gap: 120px;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 1px solid #FFFF;
+    padding-bottom: 50px;
+}
+
+.principal-projetos {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 120px;
+    padding-top: 50px;
+    border-bottom: 1px solid #FFFF;
+    padding-bottom: 50px;
+}
+
+.textos-projetos {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+
+.textos-projetos p {
+    max-width: 80%;
+    text-align: right;
+
+}
+
+.principal-time-especilizado {
+    display: flex;
+    align-items: center;
+    gap: 120px;
+    padding-top: 50px;
+    padding-bottom: 130px;
+
+}
+
+.principal-titulo-nossos-diferenciais {
+    font-size: 55px;
+    color: #FFFF;
+    max-width: 90%;
+}
+
+.principal-paragrafo-nossos-diferenciais {
+    color: #FFFF;
+    padding-top: 10px;
+    font-size: 25px;
+}
+
+.principal-textos-time-especilistas h2 {
+    max-width: 80%;
+}
+
+
+.titulo-publico-alvo {
+    padding-top: 50px;
+    font-size: 30pt;
+    color: #FFF;
+}
+
+.publico-alvo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 100px;
+    gap: 50px;
+}
+
+.publico-alvo-titulo {
+    padding-top: 50px;
+    text-align: center;
+    font-size: 50pt;
+    color: #FFF;
+}
+
+.tex-color-dev {
+    color: #00CCFF;
+}
+
+.tex-color-force {
+    color: #CC3300;
+}
+
+.publico-alvo-subtitulo {
+    text-align: center;
+    font-size: 35pt;
+    color: #FFF;
+}
+
+.publico-alvo-listas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+.publico-alvo-lista-esquerda li, .publico-alvo-lista-direita li {
+    
+    color: #FFFF;
+    padding: 30px;
+    font-size: 24px;
+    
+}
+
+.publico-alvo-lista-esquerda {
+    display: flex;
+    width: 50%;
+    align-items: row;
+    justify-content: flex-end;
+    text-align: right;
+    
+}
+
+.publico-alvo-lista-esquerda li {
+    direction: rtl;
+}
+
+.borda-entre-listas {
+    display: flex;
+    width: 5px;
+    background-color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+
+.publico-alvo-lista-direita {
+   width: 50%;
+   
+   
+}
+
+.titulo-publico-alvo {
+    padding-top: 50px;
+    font-size: 30pt;
+    color: #FFFF;
+  
+}
+
+.publico-alvo-lista-direita h1 {
+    padding-top: 15%;
+}
+
+
 .rodape {
     background-color: #414141;
     border-radius: 20px;
