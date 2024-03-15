@@ -181,12 +181,12 @@ body {
 }
 
 .principal-nossos-diferenciais {
-    margin: 200px;
-    
+    margin: 100px;
 }
 
 .principal-nossos-diferenciais h1 {
-    font-size: 68px;
+    margin-top: 150px;
+    font-size: 50pt;
     text-align: center;
     color: #FFFF;
     padding-bottom: 90px;
@@ -217,11 +217,8 @@ body {
     align-items: flex-end;
 }
 
-
 .textos-projetos p {
-    max-width: 80%;
     text-align: right;
-
 }
 
 .principal-time-especilizado {
@@ -249,13 +246,6 @@ body {
     max-width: 80%;
 }
 
-
-.titulo-publico-alvo {
-    padding-top: 50px;
-    font-size: 30pt;
-    color: #FFF;
-}
-
 .publico-alvo {
     display: flex;
     flex-direction: column;
@@ -266,7 +256,6 @@ body {
 }
 
 .publico-alvo-titulo {
-    padding-top: 50px;
     text-align: center;
     font-size: 50pt;
     color: #FFF;
@@ -312,6 +301,11 @@ body {
 
 .publico-alvo-lista-esquerda li {
     direction: rtl;
+    font-size: 13pt;
+}
+
+.publico-alvo-lista-direita li {
+    font-size: 13pt;
 }
 
 .borda-entre-listas {
