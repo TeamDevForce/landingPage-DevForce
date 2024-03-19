@@ -48,7 +48,6 @@ body {
     display: flex;
     gap: 30px;
     padding-top: 50px;
-    
 }
 
 .cabecalho-login a{
@@ -60,7 +59,6 @@ body {
 
 .cabecalho-login a:hover {
     color: #F5F5F5;
-
 }
 
 .cabecalho-login button {
@@ -142,7 +140,6 @@ body {
     align-items: center;
     font-size: 50pt;
     color: #FFF;
-
 }
 
 .sobre-nos-dev {
@@ -227,7 +224,6 @@ body {
     gap: 120px;
     padding-top: 50px;
     padding-bottom: 130px;
-
 }
 
 .principal-titulo-nossos-diferenciais {
@@ -287,7 +283,6 @@ body {
     color: #FFFF;
     padding: 30px;
     font-size: 24px;
-    
 }
 
 .publico-alvo-lista-esquerda {
@@ -296,7 +291,6 @@ body {
     align-items: row;
     justify-content: flex-end;
     text-align: right;
-    
 }
 
 .publico-alvo-lista-esquerda li {
@@ -314,26 +308,94 @@ body {
     background-color: white;
     margin-left: 10%;
     margin-right: 10%;
-    
 }
 
 .publico-alvo-lista-direita {
    width: 50%;
-   
-   
 }
 
 .titulo-publico-alvo {
     padding-top: 50px;
     font-size: 30pt;
     color: #FFFF;
-  
 }
 
 .publico-alvo-lista-direita h1 {
-    padding-top: 15%;
+    padding-top: 19%;
 }
 
+.principal-fale-conosco {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin: 150px;
+}
+
+.fale-conosco-titulo {
+    font-size: 45pt;
+    color: #FFFF;
+    text-align: center;
+}
+
+.fale-conosco-input-duvida {
+    border: 2px solid #6F6F6F; 
+    border-radius: 15px;
+    padding: 12px; 
+    background-color: #333;
+    width: 900px; 
+    height: 50px;
+    outline: none;
+    color: #FFF;
+    text-shadow: none;
+    caret-color: #FFF;
+    font-size: 16px; 
+    font-family: rubik; 
+    transition: border-color 0.3s ease;
+}
+
+.publico-alvo-input-duvida::placeholder {
+    color: #818080;
+}
+
+.fale-conosco-buttons {
+    display: flex;
+    gap: 25px;
+}
+
+.fale-conosco-email {
+    padding: 14px 20px;
+    width: 230px;
+    font-size: 19px;
+    border: 2px solid #00CCFF;
+    border-radius: 17px;
+    background: #292929;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.fale-conosco-email:hover {
+    background: #00CCFF;
+    color: #292929;
+}
+
+.fale-conosco-whatsapp {
+    padding: 16px 20px;
+    font-size: 19px;
+    border: 2px solid #0A9D4E;
+    border-radius: 17px;
+    background: #0A9D4E;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.fale-conosco-whatsapp:hover {
+    background: #0A7D3D;
+    color: #ffffff; 
+    border: 2px solid #0A7D3D;
+}
 
 .rodape {
     background-color: #414141;
@@ -369,7 +431,6 @@ body {
     font-size: 25pt;
 }
 
-
 .rodape-principal-textos-paragrafos {
     margin-top: 20px;
     display: flex;
@@ -395,3 +456,7 @@ body {
     color: #fff;
     font-size: 10pt;
 }
+
+
+
+
