@@ -319,15 +319,12 @@ body {
 
 .publico-alvo-lista-direita {
    width: 50%;
-   
-   
 }
 
 .titulo-publico-alvo {
     padding-top: 50px;
     font-size: 30pt;
     color: #FFFF;
-  
 }
 
 .publico-alvo-lista-direita h1 {
@@ -354,6 +351,60 @@ body {
 .nossos-profissionais-cards-ind {
     height: 440px;
     margin: 10px;
+}
+
+.perguntas-frequentes {
+    margin: 100px;
+    color: #fff;
+}
+
+.perguntas-frequentes-titulo {
+    text-align: center;
+    font-size: 50pt;
+    color: #FFF;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+.perguntas-frequentes-questoes {
+    border-bottom: 2px solid #fff;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    cursor: pointer;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.perguntas-frequentes-questoes-pergunta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.perguntas-frequentes-questoes-pergunta-flecha {
+    width: 40px;
+}
+
+.perguntas-frequentes-resposta {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1.4s ease;
+}
+
+.perguntas-frequentes-resposta p {
+    padding-top: 20px;
+}
+
+.perguntas-frequentes-questoes.active .perguntas-frequentes-resposta {
+    max-height: 300px;
+}
+
+.perguntas-frequentes-questoes.active img {
+    transform: rotate(180deg);
+}
+
+img {
+    transition: transform .4s ease-in;
 }
 
 .rodape {
