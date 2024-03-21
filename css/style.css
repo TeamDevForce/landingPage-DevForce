@@ -397,6 +397,89 @@ body {
     border: 2px solid #0A7D3D;
 }
 
+.produto-preco-titulo {
+    font-size: 70px;
+    color: #00CCFF;
+    text-align: center;
+}
+
+.produto-preco-paragrago-parcelas {
+    text-align: center;
+    padding-top: 35px;
+    color: #FFF;
+    font-size: 30px;
+}
+
+.produto-preco-container-preco {
+   display: flex;
+   flex-direction: row-reverse;
+   justify-content: center;
+   align-items: baseline;
+   position: relative
+}
+
+
+.preco-container {
+    display: flex;
+    gap: 7px;
+}
+
+.produto-paragrafo-preco {
+    font-size: 140px;
+    color: #00CCFF;
+    font-weight: 720;  
+}
+
+.produto-paragrafo-centavos {
+    font-size: 30px;
+    font-weight: 700;
+    color: #00CCFF;
+    padding-top: 11%;
+}
+
+.produto-paragrafo-cifrao {
+    font-size: 30px;
+    font-weight: 700;
+    color: #00CCFF;
+}
+
+.principal-produto-botao {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.principal-produto-botao-vaga {
+    padding: 14px 20px;
+    width: 350px;
+    height: 90px;
+    font-size: 30px;
+    font-weight: 1000;
+    border: 2px solid #00CCFF;
+    border-radius: 10px;
+    background: #00CCFF;
+    color: #292929;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.principal-produto-botao-vaga:hover {
+    background: #009ec5;
+    border: 2px solid #009ec5;
+    color: #fff;
+}
+
+.principal-produto-preco {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+
+.principal-produto-preco-linhas {
+    height: 500px;
+}
+
 .rodape {
     background-color: #414141;
     border-radius: 20px;
