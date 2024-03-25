@@ -29,3 +29,8 @@ function enviarEmail() {
     // Abra o link "mailto" em outra aba
     window.open(linkEmail, "_blank");
 }
+function comprarMentoria() {
+    var link = "https://loja.infinitepay.io/marcelosenna/tfu6817-mentoria-devforce";
+
+    window.open(link, "_blank");
+}
