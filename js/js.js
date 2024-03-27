@@ -34,3 +34,8 @@ function comprarMentoria() {
 
     window.open(link, "_blank");
 }
+
+window.addEventListener("scroll", function(){
+    var header = document.querySelector('#nav-bar')
+    header.classList.toggle('rolagem', window.scrollY > 0)
+})

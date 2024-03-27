@@ -7,12 +7,19 @@
     text-decoration: none;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-size: 100%;
     background: #292929;
     font-family: "Rubik", sans-serif;
     font-optical-sizing: auto;
-    
+}
+
+header {
+    padding-top: 1px;
 }
 
 .cabecalho-menu {
@@ -21,12 +28,33 @@ body {
     align-items: center;
     font-size: 20px;
     font-weight: 400;
-    padding-bottom: 35px;
+    padding: 20px; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto; 
+    z-index: 1000;
+    background-color: transparent; 
+    transition: background-color 0.5s, padding 0.5s;
+}
+
+.cabecalho-menu.rolagem {
+    background-color: #292929;
+    padding: 1px;
+    padding-bottom: 10px;
+    height: auto;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
 }
 
 .cabecalho-menu-logo {
     width: 136px;
     padding-top: 50px;
+    transition: width 0.5s;
+}
+
+.cabecalho-menu.rolagem .cabecalho-menu-logo {
+    width: 80px;
 }
 
 .cabecalho-menu-ancoras {
@@ -38,7 +66,6 @@ body {
 .cabecalho-menu-ancoras a {
     color: #898989;
     transition: background-color 0.3s, color 0.3s;
-    padding-bottom: 1px;
 }
 
 .cabecalho-menu-ancoras a:hover {
@@ -76,6 +103,7 @@ body {
 .cabecalho-login button:hover {
     background: #00CCFF;
     color: #292929;
+    
 }
 
 .boas-vindas {
@@ -83,7 +111,7 @@ body {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    margin-top: 100px;
+    margin-top: 270px;
     margin-bottom: 100px;
 }
 
