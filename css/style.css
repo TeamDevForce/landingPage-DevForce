@@ -385,7 +385,7 @@ header {
     }
 
     .circulo-direito {
-        top: 50%;
+        top: 40%;
         right: 0%;
     }
 
@@ -479,7 +479,7 @@ header {
         margin: 50px;
     }
 
-    .sobre-nos-texto-titulo {
+    .sobre-nos-texto-tituloo {
         padding-top: 0px;
         text-align: center;
         align-items: center;
@@ -487,7 +487,7 @@ header {
         color: #FFF;
     }
 
-    .sobre-nos-texto-paragrafo {
+    .sobre-nos-texto-paragrafoo {
         padding-top: 25px;
         font-weight: 300;
         color: #fff;
