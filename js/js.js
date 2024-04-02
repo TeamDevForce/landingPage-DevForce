@@ -46,3 +46,16 @@ window.addEventListener("scroll", function(){
     var header = document.querySelector('#nav-bar')
     header.classList.toggle('rolagem', window.scrollY > 0)
 })
+
+ScrollReveal().reveal('.principal-sobre-nos', {
+    origin: 'left',
+    duration: 1700,
+    distance: '20%'
+
+});
+
+ScrollReveal().reveal('#nav-bar', {
+    origin: 'left',
+    duration: 1500,
+    distance: '20%'
+});
