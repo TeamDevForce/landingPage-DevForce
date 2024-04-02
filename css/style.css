@@ -20,7 +20,11 @@ body {
 }
 
 header {
-    padding-top: 1px;
+    padding: 1px;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    
 }
 
 .cabecalho-menu {
@@ -30,9 +34,6 @@ header {
     font-size: 20px;
     font-weight: 400;
     padding: 20px; 
-    position: fixed;
-    top: 0;
-    left: 0;
     width: 100%;
     height: auto; 
     z-index: 1000;
@@ -79,6 +80,8 @@ header {
 
 #menu_mobile {
     display: none;
+    z-index: 3;
+    background-color: #292929;
 }
 
 @media (min-width: 581px) and (max-width: 1170px) {
@@ -108,6 +111,8 @@ header {
         flex-direction: column;
         align-items: center;
         margin-top: 50px;
+        position: sticky;
+        
     }
 
     #menu_mobile_ancoras {
@@ -145,6 +150,7 @@ header {
         cursor: pointer;
         transition: background-color 0.3s, color 0.3s;
     }
+
 }
 
 
@@ -174,6 +180,7 @@ header {
         display: flex;
         flex-direction: column;
         align-items: center;
+        position: sticky;
     }
 
     #menu_mobile_ancoras {
@@ -182,7 +189,7 @@ header {
         gap: 20px;
         margin: 12px 0px;
         align-items: center;
-        margin-top: 170px;
+        
     }
 
     #menu_mobile_ancoras a {
