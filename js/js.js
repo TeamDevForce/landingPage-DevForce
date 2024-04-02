@@ -1,10 +1,3 @@
-$(document).ready(function() {
-    $('#botão_mobile').on('click', function() {
-        $('#menu_mobile').toggleClass('active')
-        $('#botão_mobile').find('i').toggleClass('fa-x')
-    })
-})
-
 const faqs = document.querySelectorAll(".perguntas-frequentes-questoes");
 
 faqs.forEach ((pfq) => {
@@ -59,3 +52,10 @@ ScrollReveal().reveal('#nav-bar', {
     duration: 1500,
     distance: '20%'
 });
+
+$(document).ready(function() {
+    $('#botão_mobile').on('click', function() {
+        $('#menu_mobile').toggleClass('active')
+        $('#botão_mobile').find('i').toggleClass('fa-x')
+    })
+})
