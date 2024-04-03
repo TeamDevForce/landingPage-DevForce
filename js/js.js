@@ -53,6 +53,48 @@ ScrollReveal().reveal('#nav-bar', {
     distance: '20%'
 });
 
+ScrollReveal().reveal('.boas-vindas', {
+    origin: 'left',
+    duration: 1500,
+    distance: '20%'
+});
+
+ScrollReveal().reveal('.sobre-nos', {
+    origin: 'left',
+    duration: 1500,
+    distance: '20%'
+});
+
+ScrollReveal().reveal('.principal-nossos-diferenciais, h2, p', {
+    origin: 'left',
+    duration: 1200,
+    distance: '20%'
+});
+
+ScrollReveal().reveal('.publico-alvo', {
+    origin: 'left',
+    duration: 1200,
+    distance: '20%'
+});
+
+ScrollReveal().reveal('.nossos-profissionais', {
+    origin: 'left',
+    duration: 1200,
+    distance: '20%'
+});
+
+ScrollReveal().reveal('.principal-produto-preco', {
+    origin: 'left',
+    duration: 1200,
+    distance: '20%'
+});
+
+ScrollReveal().reveal('.perguntas-frequentes', {
+    origin: 'left',
+    duration: 1200,
+    distance: '20%'
+});
+
 $(document).ready(function() {
     $('#botão_mobile').on('click', function() {
         $('#menu_mobile').toggleClass('active')
