@@ -840,6 +840,43 @@ header {
     margin: 10px;
 }
 
+@media (min-width: 576px) and (max-width: 1170px) {
+    .nossos-profissionais-titulo {
+        text-align: center;
+        font-size: 40pt;
+    }
+
+    .nossos-profissionais-cards-ind {
+        height: 400px;
+        width: auto;
+        margin: 10px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .nossos-profissionais {
+      margin: 20px;
+      padding-bottom: 50px;
+    }
+  
+    .nossos-profissionais-titulo {
+      font-size: 20pt;
+    }
+  
+    .nossos-profissionais-cards {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+  
+    .nossos-profissionais-cards-ind {
+      height: auto;
+      width: 150px; 
+      margin: 5px;
+    }
+  }
+
 .produto-preco-titulo {
     font-size: 70px;
     color: #00CCFF;
@@ -860,7 +897,6 @@ header {
    align-items: baseline;
    position: relative
 }
-
 
 .preco-container {
     display: flex;
@@ -923,6 +959,64 @@ header {
     height: 500px;
 }
 
+@media (min-width: 581px) and (max-width: 1170px) {
+    .principal-produto-preco-linhas {
+        height: 450px;
+    }
+
+    .produto-preco-titulo {
+        font-size: 38px;
+
+    }
+
+    .principal-produto-botao-vaga {
+        padding: 14px 20px;
+        width: 285px;
+        height: 80px;
+        font-size: 25px;
+        font-weight: 1000;
+        border: 2px solid #00CCFF;
+        border-radius: 10px;
+        background: #00CCFF;
+        color: #292929;
+        cursor: pointer;
+        transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+    }  
+}
+
+
+
+@media (max-width: 576px) {
+    .produto-preco-titulo {
+        font-size: 35px;
+    }
+
+    .produto-preco-paragrago-parcelas {
+        font-size: 18px; 
+    }
+
+    .produto-paragrafo-preco {
+        font-size: 70px;
+    }
+
+    .produto-paragrafo-centavos,
+    .produto-paragrafo-cifrao {
+        font-size: 14px; 
+    }
+
+    .principal-produto-botao-vaga {
+        padding: 6px 10px; 
+        width: 150px; 
+        height: 40px; 
+        font-size: 14px;
+    }
+
+    .principal-produto-preco-linhas {
+        height: 200px;
+    }
+}
+
+
 .perguntas-frequentes {
     margin: 100px;
     color: #fff;
@@ -976,6 +1070,48 @@ header {
 img {
     transition: transform .4s ease-in;
 }
+
+@media (max-width: 768px) {
+    .perguntas-frequentes-titulo {
+        font-size: 28pt;
+    }
+
+    .perguntas-frequentes-questoes-pergunta-flecha {
+        width: 20px;
+    }
+}
+
+
+@media (max-width: 576px) {
+    .perguntas-frequentes {
+        margin: 30px;
+    }
+
+    .perguntas-frequentes-titulo {
+        font-size: 24pt;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .perguntas-frequentes-questoes {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .perguntas-frequentes-questoes-pergunta-flecha {
+        width: 15px;
+    }
+
+    .perguntas-frequentes-questoes h2 {
+        font-size: 15px;
+    }
+
+    .perguntas-frequentes-questoes p {
+        font-size: 12px;
+    }
+}
+
+
 .principal-fale-conosco {
     display: flex;
     flex-direction: column;
@@ -1049,6 +1185,65 @@ img {
     border: 2px solid #0A7D3D;
 }
 
+@media (min-width: 581px) and (max-width: 1170px) {
+    
+    .fale-conosco-titulo {
+        font-size: 30pt;
+        color: #FFFF;
+        text-align: center;
+    }
+    
+    .fale-conosco-input-duvida {
+        background-color: #333;
+        width: 700px; 
+        height: 50px;
+        font-size: 13px;
+    }
+    
+    .fale-conosco-email {
+        padding: 14px 20px;
+        width: 200px;
+        font-size: 19px;
+    } 
+}
+
+@media (max-width: 576px) {
+    .principal-fale-conosco {
+        margin: 70px;
+    }
+        
+    .fale-conosco-input-duvida {
+        width: 370px; 
+        height: 40px;
+        font-size: 13px; 
+    }
+
+    .fale-conosco-titulo {
+        font-size: 20pt;
+        color: #FFFF;
+        white-space: nowrap;
+    }
+
+    .fale-conosco-whatsapp {
+        width: 170px;
+        height: 50px;
+        padding: 10px 15px;
+        font-size: 13px; 
+        border-width: 2px;
+        border-radius: 13px;
+    } 
+
+    .fale-conosco-email {
+        width: 170px;
+        height: 50px;
+        padding: 10px 15px; 
+        font-size: 13px;
+        border-width: 2px; 
+        border-radius: 13px;
+
+    }  
+}
+
 .rodape {
     background-color: #414141;
     border-radius: 20px;
@@ -1108,6 +1303,67 @@ img {
     color: #fff;
     font-size: 10pt;
 }
+
+@media (min-width: 581px) and (max-width: 1170px) {
+
+    .rodape-principal-textos {
+        padding: 5px;
+    }
+    
+    .rodape-principal-textos-titulo {
+        font-size: 18pt;
+    }
+    
+    .rodape-principal-textos-paragrafos {
+        margin-top: 10px;
+        white-space: nowrap;
+        font-size: 10pt;
+    }
+    
+    
+    .rodape-secundario-textos {
+        padding: 10px;
+        font-size: 12pt;
+    }
+
+    .rodape-principal-logo {
+        height: 100px;
+        margin-right: 80px;
+    }
+    
+}
+
+@media (max-width: 576px) {
+
+    
+    .rodape-principal-textos {
+        padding: 5px;
+    }
+    
+    .rodape-principal-textos-titulo {
+        font-size: 11pt;
+    }
+    
+    .rodape-principal-textos-paragrafos {
+        margin-top: 10px;
+        white-space: nowrap;
+        font-size: 6pt;
+    }
+    
+    
+    .rodape-secundario-textos {
+        padding: 10px;
+        font-size: 9pt;
+    }
+
+    .rodape-principal-logo {
+        height: 60px;
+        margin-right: 80px;
+    }
+    
+}
+
+
 /* ----------------->Estilizacao aba 'sobre nos'<----------------- */
 
 .aba-sobre-nos {
