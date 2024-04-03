@@ -1462,6 +1462,10 @@ img {
     align-self: self-start;
 }
 
+.negrito-sobre-nos {
+    font-weight: 600;
+}
+
 @media (min-width: 581px) and (max-width: 1170px) {
     .container-aba-sobre-nos {
         margin: 0 50px 0 50px;
