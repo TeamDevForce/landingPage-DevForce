@@ -110,7 +110,6 @@ header {
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-top: 50px;
         position: sticky;
         
     }
@@ -121,7 +120,7 @@ header {
         gap: 20px;
         margin: 12px 0px;
         align-items: center;
-        margin-top: 170px;
+        margin-top: 20px;
     }
 
     #menu_mobile_ancoras a {
@@ -263,7 +262,7 @@ header {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    margin-top: 270px;
+    margin-top: 70px;
     margin-bottom: 100px;
 }
 
@@ -333,12 +332,12 @@ header {
     }
 
     .circulo-esquerdo {
-        top: 20%;
+        top: 15%;
         left: 0%;
     }
 
     .circulo-direito {
-        top: 70%;
+        top: 40%;
         right: 0%;
     }
 
@@ -367,7 +366,7 @@ header {
         flex-direction: column;
         align-items: center;
         text-align: center;
-        margin-top: 200px;
+        margin-top: 50px;
         margin-bottom: 100px;
     }
 
@@ -387,7 +386,7 @@ header {
     }
 
     .circulo-esquerdo {
-        top: 20%;
+        top: 22%;
         left: 0%;
     }
 
@@ -824,7 +823,7 @@ header {
     align-items: center;
     justify-content: center;
     margin: 100px;
-    gap: 50px;
+    gap: 0px;
 }
 
 .nossos-profissionais-titulo {
@@ -844,6 +843,13 @@ header {
     .nossos-profissionais-titulo {
         text-align: center;
         font-size: 40pt;
+    }
+
+    .nossos-profissionais-cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
     }
 
     .nossos-profissionais-cards-ind {
@@ -872,10 +878,17 @@ header {
   
     .nossos-profissionais-cards-ind {
       height: auto;
-      width: 150px; 
+      width: 140px; 
       margin: 5px;
     }
-  }
+}
+
+.principal-produto-preco {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
 
 .produto-preco-titulo {
     font-size: 70px;
@@ -956,7 +969,7 @@ header {
 }
 
 .principal-produto-preco-linhas {
-    height: 500px;
+    height: 500px;
 }
 
 @media (min-width: 581px) and (max-width: 1170px) {
@@ -987,33 +1000,43 @@ header {
 
 
 @media (max-width: 576px) {
+
+    .principal-produto-preco {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
     .produto-preco-titulo {
-        font-size: 35px;
+        font-size: 30px;
+    
     }
 
     .produto-preco-paragrago-parcelas {
-        font-size: 18px; 
+        font-size: 18px;
     }
 
     .produto-paragrafo-preco {
-        font-size: 70px;
+    font-size: 90px;
     }
 
     .produto-paragrafo-centavos,
     .produto-paragrafo-cifrao {
-        font-size: 14px; 
+    font-size: 18px;
     }
 
     .principal-produto-botao-vaga {
-        padding: 6px 10px; 
-        width: 150px; 
-        height: 40px; 
-        font-size: 14px;
+    padding: 6px 10px;
+    width: 150px;
+    height: 45px;
+    font-size: 14px;
     }
 
     .principal-produto-preco-linhas {
-        height: 200px;
+    display: none;
     }
+        
 }
 
 
@@ -1209,11 +1232,13 @@ img {
 
 @media (max-width: 576px) {
     .principal-fale-conosco {
+        gap: 20px;
         margin: 70px;
     }
         
     .fale-conosco-input-duvida {
-        width: 370px; 
+        margin-top: 10px;
+        width: 330px; 
         height: 40px;
         font-size: 13px; 
     }
@@ -1225,7 +1250,7 @@ img {
     }
 
     .fale-conosco-whatsapp {
-        width: 170px;
+        width: 150px;
         height: 50px;
         padding: 10px 15px;
         font-size: 13px; 
@@ -1234,7 +1259,7 @@ img {
     } 
 
     .fale-conosco-email {
-        width: 170px;
+        width: 150px;
         height: 50px;
         padding: 10px 15px; 
         font-size: 13px;
@@ -1367,8 +1392,8 @@ img {
 /* ----------------->Estilizacao aba 'sobre nos'<----------------- */
 
 .aba-sobre-nos {
-    padding-top: 200px ;
-    padding-bottom: 100px;
+    padding-top: 0px ;
+    padding-bottom: 50px;
 }
 
 .textos-sobre-nos {
@@ -1381,7 +1406,6 @@ img {
     display: flex;
     flex-direction: column;
     gap: 30px;
-    padding-top: 40px;
 }
 
 
@@ -1438,5 +1462,57 @@ img {
     align-self: self-start;
 }
 
+@media (min-width: 581px) and (max-width: 1170px) {
+    .container-aba-sobre-nos {
+        margin: 0 50px 0 50px;
+    }
+
+    .borda-sobre-nos-inferior,
+    .borda-sobre-nos-superior {
+        display: none;
+    }
+}
+
+@media (max-width: 580px) {
+    .container-aba-sobre-nos {
+        margin: 0 50px 0 50px;
+    }
+    .sobre-nos-texto-titulo {
+        padding-top: 50px;
+        text-align: center;
+        align-items: center;
+        font-size: 30pt;
+        color: #FFF;
+    }
+    
+    .sobre-nos-texto-paragrafo {
+        padding-top: 25px;
+        font-weight: 300;
+        color: #fff;
+        text-align: center;
+        font-size: 10pt;
+    }
+    
+    .origem-texto-titulo {
+        padding-top: 50px;
+        text-align: center;
+        align-items: center;
+        font-size: 30pt;
+        color: #FFF;
+    }
+    
+    .origem-texto-paragrafo {
+        padding-top: 25px;
+        font-weight: 300;
+        color: #fff;
+        text-align: center;
+        font-size: 10pt;
+    }
+
+    .borda-sobre-nos-inferior,
+    .borda-sobre-nos-superior {
+        display: none;
+    }
+}
 
 
